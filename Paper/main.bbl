@@ -1,0 +1,95 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{acquisti2015privacy}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=3113842fe5fff13a749c6a7cd553198f}{%
+           family={Acquisti},
+           familyi={A\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef8df9d186e9a976a91b06b730d412a9}{%
+           family={Brandimarte},
+           familyi={B\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=898ca02622955fd1ccdcf47220061ed2}{%
+           family={Loewenstein},
+           familyi={L\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{b5b1e689256358cd1edca513a4dc8c50}
+      \strng{fullhash}{b5b1e689256358cd1edca513a4dc8c50}
+      \strng{bibnamehash}{b5b1e689256358cd1edca513a4dc8c50}
+      \strng{authorbibnamehash}{b5b1e689256358cd1edca513a4dc8c50}
+      \strng{authornamehash}{b5b1e689256358cd1edca513a4dc8c50}
+      \strng{authorfullhash}{b5b1e689256358cd1edca513a4dc8c50}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{6221}
+      \field{title}{Privacy and human behavior in the age of information}
+      \field{volume}{347}
+      \field{year}{2015}
+      \field{pages}{509\bibrangedash 514}
+      \range{pages}{6}
+    \endentry
+    \entry{levy2020}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=560ba51db7d0dc4c58c96f812a059ee6}{%
+           family={Levy},
+           familyi={L\bibinitperiod},
+           given={Ro'ee},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{560ba51db7d0dc4c58c96f812a059ee6}
+      \strng{fullhash}{560ba51db7d0dc4c58c96f812a059ee6}
+      \strng{bibnamehash}{560ba51db7d0dc4c58c96f812a059ee6}
+      \strng{authorbibnamehash}{560ba51db7d0dc4c58c96f812a059ee6}
+      \strng{authornamehash}{560ba51db7d0dc4c58c96f812a059ee6}
+      \strng{authorfullhash}{560ba51db7d0dc4c58c96f812a059ee6}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.roeelevy.com/research}}
+      \field{note}{[Online; accessed 09-July-2020]}
+      \field{title}{Social Media, News Consumption, and Polarization: Evidence from a Field Experiment}
+      \field{year}{2020}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

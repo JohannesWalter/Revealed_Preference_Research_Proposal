@@ -63,6 +63,44 @@
       \field{pages}{509\bibrangedash 514}
       \range{pages}{6}
     \endentry
+    \entry{goldin2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=78894e2f837d992af36804bfb1b092df}{%
+           family={Goldin},
+           familyi={G\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=456f290a63ed20cca7d0dc1a95033a02}{%
+           family={Reck},
+           familyi={R\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The University of Chicago Press Chicago, IL}%
+      }
+      \strng{namehash}{d35e1f9f2c72185370bfacfa97ae6605}
+      \strng{fullhash}{d35e1f9f2c72185370bfacfa97ae6605}
+      \strng{bibnamehash}{d35e1f9f2c72185370bfacfa97ae6605}
+      \strng{authorbibnamehash}{d35e1f9f2c72185370bfacfa97ae6605}
+      \strng{authornamehash}{d35e1f9f2c72185370bfacfa97ae6605}
+      \strng{authorfullhash}{d35e1f9f2c72185370bfacfa97ae6605}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Political Economy}
+      \field{number}{7}
+      \field{title}{Revealed-Preference Analysis with Framing Effects}
+      \field{volume}{128}
+      \field{year}{2020}
+      \field{pages}{000\bibrangedash 000}
+      \range{pages}{1}
+    \endentry
     \entry{levy2020}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=560ba51db7d0dc4c58c96f812a059ee6}{%

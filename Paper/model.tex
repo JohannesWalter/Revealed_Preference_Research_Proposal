@@ -1,11 +1,46 @@
-The baseline model is directly adapted from \cite{acquisti2015privacy}.
+The description of this model follows chapter one of \textcite{acquisti2015privacy}. A fully detailed description 
+of the model can be found there and is beyond the scope of this research proposal. Here, only the main concepts 
+necessary for understanding this proposal are presented.
 
 A decision maker i chooses from a binary decision set $ \textbf{S} = \lbrace 0,1 \rbrace  $ und two possible frames $ D_{i} \in \lbrace 0,1 \rbrace $. 
-We can adapt a notation that is akin to what many researchers prefer to use in a potential outcome setting. $ Y_{i}(0) $ and $ Y_{i}(0) $ denotes then the decision individual i makes under frame $ D_{i} = 0 $ and $ D_{i} = 1 $, respectively.
-Decision makers are assumed to have strict ordinal preferences over the set of available options. $ Y^{*}_{i} \in \lbrace 0,1 \rbrace $ denotes the most preferred option.  
+In the context of this research proposal, the decision coded with a $0$ 
+could refer to an individual's decision to accept only technically necessary cookies and 
+the decision coded with a $ 1 $ could refer to an individual's decision 
+to allow for non technically necessary cookies. Frame $ 0 $ could be the situation where the default setting is such that 
+technically necessary cookies are the only pre-chosen ones and the user would have to actively engage in clicking on all non-technically necessary 
+cookies she wishes to allow. Frame $ 1 $ could then refer to the situation 
+where in the default setting both types of cookies are pre-chosen and the user accepts both types with one click. We can adapt a notation that is akin to what many researchers like to use in a potential outcome setting. $ Y_{i}(0) $ and $ Y_{i}(0) $ denotes then the decision individual i makes under frame $ D_{i} = 0 $ and $ D_{i} = 1 $, respectively.
+Decision makers are assumed to have strict ordinal preferences over the set of available options. $ Y^{*}_{i} \in \lbrace 0,1 \rbrace $ denotes the most preferred option.
+Each decision maker is characterized by a vector of random variables 
+$ (Y_i(0), Y_i(1), D_i, Y^*_i) $, which are drawn from an underlying population distribution.
+For each $ i $, the researcher observes the pair $ (Y_i, D_i) $, where 
+$ Y_i = Y_i(0)D_i + Y_i(1)(1-D_i)$. \textcite{goldin2020} assume for their model 
+that the researcher does not observe $ Y^*_i $ and only observes one of $ Y_i(0)$ and $ Y_i(1)$, depending on the frame $D_i$.
+
+The data that is suggested to be collected in this proposal deviates
+in a crucial way from this assumption. In contrast to the datasets \textcite{goldin2020}
+have in mind, the dataset in this proposal will contain \textit{repeated} observations of the same individual. 
+The number of observations for each $ i $ can be denoted with a subscript 
+$ k \in \lbrace 1,\dots, K \rbrace $ such that $ Y_{i, k} $ is observed. 
+Importantly, here it is assumed that $ K $ is sufficiently large to allow for at 
+least one observation of each framing $ D_{i} \in \lbrace 0,1 \rbrace $.
+
+\textcite{goldin2020} continue their description of the model as follows: Each
+decision maker can choose either consistently, i.e. the same choice under each frame,
+or choose in a way that is responsive to the frame. Consistency is denoted by $ C_i = 1 iff Y_i(0) = Y_i(1) else C_i = 0 $.
+Again, they assume that each $ i $ is observed only under one frame, such that $C_i$ is not observed.
+In the context of this proposal, as described above, it is assumed that each $ i $ is observed under both frames, such that
+$ C_i $ is identified. This difference is crucial for one of the main contributions of this proposal.
+The additional information in this dataset allows to calculate two sets of results. For the first one, the additional information in this dataset is not used.
+The analysis will proceed under the assumption of \textcite{goldin2020}. The second set of results will be obtained using the full amount of information
+in the dataset. As such, the "ground-truth" that remains hidden under \textcite{goldin2020}'s assumptions, is observed. In other words, with the dataset proposed 
+here, it will be able to identify all individuals who make consistent choices, independent of the frame. 
+Having these two sets of results, one can compare the estimates from both to arrive at an assessment of the quality of \textcite{goldin2020}'s model accuracy.
+
+Four +1 assumptions real quick
 
 
 \begin{itemize}
-    \item Assumption A1 (Frame seperatbility) For all $ i $, $ Y^*_{i} $ does not depend on $ D $.
+    \item Assumption A1 (Frame separability) For all $ i $, $ Y^*_{i} $ does not depend on $ D $.
 \end{itemize}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.13)  11 JUL 2020 23:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.13)  12 JUL 2020 14:15
 entering extended mode
 **"c:/Users/JWL/Documents/Summer School Courses 2020/Revealed Preferences/Revealed_Preference_Research_Proposal/Paper/main.tex"
 ("c:/Users/JWL/Documents/Summer School Courses 2020/Revealed Preferences/Revealed_Preference_Research_Proposal/Paper/main.tex"
@@ -478,7 +478,7 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 21.
+Package hyperref Info: Option `colorlinks' set `true' on input line 22.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  ("C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\english.lbx"
@@ -493,22 +493,22 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 ("c:/Users\JWL\Documents\Summer School Courses 2020\Revealed Preferences\Revealed_Preference_Research_Proposal\Paper\main.aux")
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 \AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring ON on input line 23.
+Package hyperref Info: Link coloring ON on input line 24.
  ("C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  ("C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\refcount.sty"
@@ -518,9 +518,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count308
 )
-LaTeX Info: Redefining \ref on input line 23.
-LaTeX Info: Redefining \pageref on input line 23.
-LaTeX Info: Redefining \nameref on input line 23.
+LaTeX Info: Redefining \ref on input line 24.
+LaTeX Info: Redefining \pageref on input line 24.
+LaTeX Info: Redefining \nameref on input line 24.
  ("c:/Users\JWL\Documents\Summer School Courses 2020\Revealed Preferences\Revealed_Preference_Research_Proposal\Paper\main.out") ("c:/Users\JWL\Documents\Summer School Courses 2020\Revealed Preferences\Revealed_Preference_Research_Proposal\Paper\main.out")
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -590,13 +590,13 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 ("c:/Users\JWL\Documents\Summer School Courses 2020\Revealed Preferences\Revealed_Preference_Research_Proposal\Paper\main.bbl")
-Package biblatex Info: Reference section=0 on input line 23.
-Package biblatex Info: Reference segment=0 on input line 23.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 38.
+Package biblatex Info: Reference section=0 on input line 24.
+Package biblatex Info: Reference segment=0 on input line 24.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 39.
  ("C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 38.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 39.
  ("C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -605,49 +605,39 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <to be read again> 
                    \relax 
 l.45 
-      [1]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 69.
+      [1]) ("c:/Users\JWL\Documents\Summer School Courses 2020\Revealed Preferences\Revealed_Preference_Research_Proposal\Paper\model.tex" [2]
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 58.
  ("C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 69.
-) ("c:/Users\JWL\Documents\Summer School Courses 2020\Revealed Preferences\Revealed_Preference_Research_Proposal\Paper\model.tex" [2]) ("c:/Users\JWL\Documents\Summer School Courses 2020\Revealed Preferences\Revealed_Preference_Research_Proposal\Paper\Data and Methods.tex"
-Overfull \hbox (32.57555pt too wide) in paragraph at lines 22--25
-\OT1/cmr/m/n/12 nutzungs-basierte Online-Werbung https://www.bild.de/wa/ll/bild-de/privater-modus-unangemeldet-
- []
-
-
-Overfull \hbox (0.58978pt too wide) in paragraph at lines 26--28
-\OT1/cmr/m/n/12 Pri-vacy Pol-icy, and our Terms of Ser-vice https://tex.stackexchange.com/questions/823/remove-
- []
-
-[3])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 67.
- [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 58.
+) ("c:/Users\JWL\Documents\Summer School Courses 2020\Revealed Preferences\Revealed_Preference_Research_Proposal\Paper\Data and Methods.tex" [3]) [4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
+ [5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
  ("c:/Users\JWL\Documents\Summer School Courses 2020\Revealed Preferences\Revealed_Preference_Research_Proposal\Paper\main.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 67.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 822A2535D397220EE0C0D4DF0BF5D486;147.
+(rerunfilecheck)             Checksum: 0DE4ACECACC8BAC1F9248C531E14348E;390.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 67.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
  ) 
 Here is how much of TeX's memory you used:
- 14765 strings out of 492450
- 250555 string characters out of 3120938
- 737110 words of memory out of 3000000
- 18911 multiletter control sequences out of 15000+200000
- 13091 words of font info for 49 fonts, out of 3000000 for 9000
+ 14788 strings out of 492450
+ 250827 string characters out of 3120938
+ 737238 words of memory out of 3000000
+ 18929 multiletter control sequences out of 15000+200000
+ 13398 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,9n,53p,1056b,1665s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,5n,53p,1056b,1676s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/JWL/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/JWL/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/JWL/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/JWL/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/JWL/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/JWL/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/JWL/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/JWL/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/JWL/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/JWL/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/JWL/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/JWL/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on "c:/Users\JWL\Documents\Summer School Courses 2020\Revealed Preferences\Revealed_Preference_Research_Proposal\Paper\main.pdf" (5 pages, 160783 bytes).
+Output written on "c:/Users\JWL\Documents\Summer School Courses 2020\Revealed Preferences\Revealed_Preference_Research_Proposal\Paper\main.pdf" (6 pages, 169225 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 25 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 148 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

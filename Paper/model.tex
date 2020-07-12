@@ -2,6 +2,8 @@ The description of this model follows chapter one of \textcite{acquisti2015priva
 of the model can be found there and is beyond the scope of this research proposal. Here, only the main concepts 
 necessary for understanding this proposal are presented.
 
+\subsection{Basic model notation}
+
 A decision maker i chooses from a binary decision set $ \textbf{S} = \lbrace 0,1 \rbrace  $ und two possible frames $ D_{i} \in \lbrace 0,1 \rbrace $. 
 In the context of this research proposal, the decision coded with a $0$ 
 could refer to an individual's decision to accept only technically necessary cookies and 
@@ -25,9 +27,12 @@ $ k \in \lbrace 1,\dots, K \rbrace $ such that $ Y_{i, k} $ is observed.
 Importantly, here it is assumed that $ K $ is sufficiently large to allow for at 
 least one observation of each framing $ D_{i} \in \lbrace 0,1 \rbrace $.
 
+The mean choices among decision makers assigned to a frame is denoted by 
+$ \bar{Y}(1) \equiv E[Y_i | D_i = 1]  $ and $ \bar{Y}(0) \equiv E[Y_i | D_i = 0]  $.
+
 \textcite{goldin2020} continue their description of the model as follows: Each
 decision maker can choose either consistently, i.e. the same choice under each frame,
-or choose in a way that is responsive to the frame. Consistency is denoted by $ C_i = 1 iff Y_i(0) = Y_i(1) else C_i = 0 $.
+or choose in a way that is responsive to the frame. Consistency is denoted by $ C_i = 1 $ iff $Y_i(0) = Y_i(1) $ else $C_i = 0 $.
 Again, they assume that each $ i $ is observed only under one frame, such that $C_i$ is not observed.
 In the context of this proposal, as described above, it is assumed that each $ i $ is observed under both frames, such that
 $ C_i $ is identified. This difference is crucial for one of the main contributions of this proposal.
@@ -37,10 +42,61 @@ in the dataset. As such, the "ground-truth" that remains hidden under \textcite{
 here, it will be able to identify all individuals who make consistent choices, independent of the frame. 
 Having these two sets of results, one can compare the estimates from both to arrive at an assessment of the quality of \textcite{goldin2020}'s model accuracy.
 
-Four +1 assumptions real quick
+%HERE IT is necessary to say which observations to use if there is a conflict!
+% Random subsample vs. drop the inconsistent ones
 
+\subsection{Model assumptions}
+
+One of \textcite{goldin2020}'s main contributions is to make the necessary assumptions for their analysis explicit.
+Furthermore, the assumptions are fundamental to their approach and will be required in section \ref{data and methods} to
+derive framing-consistent estimates for the entire population.
+For these reasons, the assumptions will be presented shortly here as well.
+Each assumption is first presented in the way \textcite{goldin2020} lay them out and subsequently
+followed by a comment on how each assumption relates to the approach suggested in this research proposal.
 
 \begin{itemize}
-    \item Assumption A1 (Frame separability) For all $ i $, $ Y^*_{i} $ does not depend on $ D $.
+    \item Assumption A1) \textit{Frame separability}: For all $ i, Y^*_i $ does not depend on $D$.
 \end{itemize}
 
+For each individual, the most preferred option does not depend on the framing.
+This is an assumption about the content of a decision makers' preferences and is 
+useful to define which features of the environment are considered to be part of the framing \parencite[p. 2764]{goldin2020}.
+
+\begin{itemize}
+    \item Assumption A2) \textit{Frame exogeneity}: $ (Y_i(0), Y_i(1), Y^*_i) \indep D_i$.
+\end{itemize}
+
+This assumption refers to the data generating process by which decision makers are assigned to frames.
+It is similar in nature to the assumption in the potential outcome setting that says treatment and
+assignment to treatment need to be independent. A2) makes sure that observed differences
+are due to the effect of the frames, rather than due to differences in the groups of individuals assigned
+to each frame.
+
+\begin{itemize}
+    \item Assumption RPA) \textit{Revealed-preference assumption}: For all $ i, Y^*_i = Y_i $.
+\end{itemize}
+
+In \textcite{goldin2020}'s setting, a framing effect is observed when assumptions A1) and A2)
+are satisfied and one observes $\bar{Y}(1) \neq \bar{Y}_i $. In the context
+of this research proposal, a framing effect occurs if $ Y_{i, k}(0) \neq Y_{i, \lnot k}(1)$ for
+at least one $k$.
+
+\begin{itemize}
+    \item Assumption A3) \textit{Consistency Principle}: For all $ i, C_i = 1 \Rightarrow Y_i = Y^*_i $.
+\end{itemize}
+
+This assumption tells us that preferences are only guaranteed
+to be revealed by choices for those decision makers who choose consistently across frames.
+This assumption also applies in the context of the data that this research proposal suggests.
+% What if there is not a single one who is consistent?!
+
+\begin{itemize}
+    \item Assumption A4) \textit{Frame monotonicity}: For all $ i, Y_i(1) \geq Y_i(0) $.
+\end{itemize}
+
+Assumption A4) allows \textcite{goldin2020} to recover aggregate information
+about consistency despite the fact that $ C_i $ is not observable on the individual level in their setting. The assumption
+requires that when a frame does affect choices, it does so in the same
+direction for each affected decision maker.
+Since $ C_i $ can be observed directly in the setting of this proposal, A4) is not necessary for the analysis of this
+dataset.

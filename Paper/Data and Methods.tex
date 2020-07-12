@@ -1,76 +1,108 @@
-Subsection 1) Data collection
-describe how he did it and what kind of data you need to collect (i.e. recognize when asked for cookies and what the default cookie setting is)
+Subsection \ref{data coll} describes how the data is proposed to be collected and the kind of data that will be collected.
+It will also contain a short overview of
+browser cookies and their functionality. Section \ref{method} will present how
+\textcite{goldin2020} identify their parameters of interest and the simplifications
+that are possible when one has access to a richer dataset.
 
-Also describe a little bit how cookies actually work
+\subsection{Data} \label{data coll}
+The process of data collection is inspired by \textcite{levy2020}. In this paper, the
+author wrote a browser extension for Google's Chrome browser. Via a Facebook ad campaign,
+8084 participants for a survey were attracted. At the end of the survey, they were offered a
+small reward in exchange of installing the browser extension on their device \parencite[p. 9]{levy2020}.
+2262 survey participants installed the extension, and 1835 kept the extension installed for at least two weeks.
 
-What kind of data is required?
+This research proposal suggests to apply the same design. Participants can be attracted
+via a Facebook or Google ad campaign. In a short survey, their age, gender and nationality can
+be elicited. Afterwards, they are asked to install a small browser extension in exchange for
+a small reward. The extension will use a short javascript code that writes a log file. This log file will keeps track whether a participant has 
+visited a website that asks for cookie settings. It will also log whether
+the default setting is to accept all cookies, or whether by default only the technically necessary cookies are selected.
+Importantly, the extension needs not collect any information about the content of the visited websites. From a privacy point of view,
+this design is less invasive than the one in \textcite{levy2020}. This observation motivates the believe that there is a sufficient amount of people who are willing
+to participate in such a study.
+%Chrome makes it easy to include extensions
+% Talk about the money required
+
+A hypertext transfer protocol (HTTP) cookie is a small piece of data that is sent from
+a website and stored on a users device. For the purposes of this research proposal, cookies can be classified into two groups. First, there are
+technically necessary cookies that ensure a website is working as intended. Such cookies could remember preceding user
+interactions with the site, e.g. adding an item to a shopping cart, or logging in. Second, there are cookies that are not technically
+necessary to ensure the website's functionality. A common example are for example third-party tracking cookies which record previously visited websites.
+These non-essential third-party tracking cookies can generate long-term records of a user's browsing history and can therefore manifest a potential privacy concern.
+Websites have an incentive to allow these cookies, as they receive third-party payments in return (common tracking cookies are e.g. Google AdSense or Facebook remarketing).  
+The GDPR requires that all websites which target European Union member states ask their users for consent
+before they are allowed to store non-essential cookies on a user's device. The host of a website still
+has a choice on how to frame this question. Either non-essential cookies are unselected by default and if the
+user clicks once on "accept" no tracking is possible. Or non-essential cookies are selected by default and if the user wants
+to avoid them it is necessary to go into the website's privacy settings and unselect tracking cookies manually.
+
+
+\subsection{Method} \label{method}
+
+This section will describe how \textcite{goldin2020} identify their model parameters. It will also contain a description
+of how the parameter identification is simplified by the method proposed here.
+To keep this section concise and within the scope of this proposal, only the main ideas are introduced here.
+For a detailed discussion, see \textcite[p.2767]{goldin2020}.
+
+In the first step, \textcite{goldin2020} focus on the consistent decision makers, i.e. the subgroup of individuals
+whose decision does not depend on the frame. 
 
 
 
 
-\begin{itemize}
-    \item Data needs to have an opt-in and an opt-out possible framing. This should be given in the cookie context: 
-    \begin{itemize}
-        \item What does the GDPR say exactly?
-        \item Either it says all cookies always must be disabled by default \dots 
-        \item Or it varies only by how the website presents the choice. What are the options? 
-    \end{itemize}
-    \item I need to observe whether individual i chooses only the technically necessary cookies or all the cookies
-    \item I also need to observe how the choice is presented: 
-\end{itemize}
 
-A) Data
-Komplettes Deaktivieren der Cookies in Firefox oder Cookies deaktivieren für nutzungsbasierte Online-Werbung
-https://www.bild.de/wa/ll/bild-de/privater-modus-unangemeldet-54578900.bild.html
+%A) Data
+%Komplettes Deaktivieren der Cookies in Firefox oder Cookies deaktivieren für nutzungsbasierte Online-Werbung
+%https://www.bild.de/wa/ll/bild-de/privater-modus-unangemeldet-54578900.bild.html
 
-By using our site, you acknowledge that you have read and understand our Cookie Policy, Privacy Policy, and our Terms of Service
-https://tex.stackexchange.com/questions/823/remove-ugly-borders-around-clickable-cross-references-and-hyperlinks
+%By using our site, you acknowledge that you have read and understand our Cookie Policy, Privacy Policy, and our Terms of Service
+%https://tex.stackexchange.com/questions/823/remove-ugly-borders-around-clickable-cross-references-and-hyperlinks
 
-I observe whether individual i accepts all cookies or only the technically necessary ones $(Y_{i})$, and whether the default is opt-in $ (D_{i} = 0) $ or opt-out $ (D_{i} = 1) $ at the date of visitng the website. 
-Through an additional survey, we also observe age, sex and race for each employee.
+%I observe whether individual i accepts all cookies or only the technically necessary ones $(Y_{i})$, and whether the default is opt-in $ (D_{i} = 0) $ or opt-out $ (D_{i} = 1) $ at the date of visitng the website. 
+%Through an additional survey, we also observe age, sex and race for each employee.
 
-B) Recovery of Consistent Preferences
+%B) Recovery of Consistent Preferences
 
-\begin{itemize}
-    \item Under assumptions A1 - A4, proposition 1 allows us to identify the preferences of the consistent visitors
-    \item A1) requires that the preferences over the cookie choice do not depend on opt-in or opt-out.
-    \item A2) Frame exogeneity
-\end{itemize}
+%\begin{itemize}
+%    \item Under assumptions A1 - A4, proposition 1 allows us to identify the preferences of the consistent visitors
+%    \item A1) requires that the preferences over the cookie choice do not depend on opt-in or opt-out.
+%    \item A2) Frame exogeneity
+%\end{itemize}
 
-Under A)1 to A4), we identify the preferences of the consistent decision makers.
-What you get is the preference of the consistent decision-makers.
+%Under A)1 to A4), we identify the preferences of the consistent decision makers.
+%What you get is the preference of the consistent decision-makers.
 
-C) Recovery of the Population Preferences
+%C) Recovery of the Population Preferences
 
-Subsection 2) Identification and identification of popuilation preferences
+%Subsection 2) Identification and identification of popuilation preferences
 
-Explain how the original model arrives at estimates and how it extrapolates. If this takes too long and is too difficult, just make it top level and refer to the paper for details
+%Explain how the original model arrives at estimates and how it extrapolates. If this takes too long and is too difficult, just make it top level and refer to the paper for details
 
-Cookies: 
+%Cookies: 
 
-\begin{tabular}{p{0.4\textwidth}|p{0.4\textwidth}}
-    %%%
-    Technically necessary cookies & Technically non-necessary cookies \\
-    \hline
-    \hline
-    \begin{itemize}
-      \item I
-      \end{itemize}
-     &
-      \begin{itemize}
-      \item Sample Text
-      \item Sample Text
-    \end{itemize}\\
-    %%%
-    \begin{itemize}
-      \item Sample Text
-      \item Sample Text
-      \end{itemize}
-      &
-      \begin{itemize}
-      \item Sample Text
-      \item Sample Text
-    \end{itemize}
-    %%%
+%\begin{tabular}{p{0.4\textwidth}|p{0.4\textwidth}}
+%    %%%
+%    Technically necessary cookies & Technically non-necessary cookies \\
+%    \hline
+%    \hline
+%    \begin{itemize}
+%      \item I
+%      \end{itemize}
+%     &
+%      \begin{itemize}
+%      \item Sample Text
+%      \item Sample Text
+%    \end{itemize}\\
+%    %%%
+%    \begin{itemize}
+%      \item Sample Text
+%      \item Sample Text
+%      \end{itemize}
+%      &
+%      \begin{itemize}
+%      \item Sample Text
+%      \item Sample Text
+%    \end{itemize}
+%    %%%
 
-    \end{tabular}
+%   \end{tabular}

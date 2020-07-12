@@ -35,7 +35,7 @@ before they are allowed to store non-essential cookies on a user's device. The h
 has a choice on how to frame this question. Either non-essential cookies are unselected by default and if the
 user clicks once on "accept" no tracking is possible. Or non-essential cookies are selected by default and if the user wants
 to avoid them it is necessary to go into the website's privacy settings and unselect tracking cookies manually.
-
+%order and at least one observation of each kind
 
 \subsection{Method} \label{method}
 
@@ -45,11 +45,65 @@ To keep this section concise and within the scope of this proposal, only the mai
 For a detailed discussion, see \textcite[p.2767]{goldin2020}.
 
 In the first step, \textcite{goldin2020} focus on the consistent decision makers, i.e. the subgroup of individuals
-whose decision does not depend on the frame. 
+whose decision does not depend on the frame. With a dataset as suggested above, it is trivial to find this group.
+Once the consistent decision makers are found, using assumption A3), the consistency principle, the options they preferred can be found.
 
+\textcite{goldin2020}'s method is also applicable to datasets that do not contain repeated observations for each individual.
+It is worth noting, that \textcite{goldin2020} mention that there method can also improve datasets that do contain repeated observations.
+In particular, this is the case when the \textit{order} in which the repeated observations are generated can itself be considered a framing. 
+For instance, this could be an issue if researchers were to analyse survey data, where the questions were not sufficiently randomized. 
+For the dataset that is described in section \ref{data coll} the order in which individuals see each question about cookies is, as described, assumed to follow a random process.
 
+\textcite{goldin2020} continue by describing the conditions for which consistent decision makers preferences can be identified when each decision maker
+is observed under a single frame. 
 
+\begin{itemize}
+    \item Proposition 1: $ \bar{Y}_C \equiv \bar{Y}(0)/(\bar{Y}(0) + 1 - \bar{Y}(1))$
+    \item Proposition 1.1: Under assumptions A1 - A4, $ E[Y^*_i | C_i = 1] = \bar{Y}_C $.
+    \item Proposition 1.2: Under assumptions A1 - A3, $ \bar{Y}_C \geq 1/2 \Rightarrow \bar{Y}_C \leq E[Y^*_i | C_i = 1] \leq 1$, and $\bar{Y}_C \leq 1/2 \Rightarrow 0 \leq E[Y^*_i| C_i = 1] \leq \bar{Y}_C$.
+\end{itemize}
 
+Proposition 1.1 follows from the insight that, given frame monotonicity, only consistent decision-makers choose against the frame \parencite[p. 2768]{goldin2020}.
+Proposition 1.2 provides a partial identification result, as it defines upper and lower bounds for the fraction of frame consistent decision makers. The results under 
+proposition 1.2 are robust to failures of frame monotonicity. In other words, it guarantees bounds in cases when there are decision makers
+who decide against the frame, but are still in truth inconsistent. These decision makers are defined by \textcite[p. 2768]{goldin2020}
+as frame defiers.
+
+The logic of proposition 1 is illustrated in table \ref{table}, which is taken from \textcite[p. 2769]{goldin2020}. To understand this table, it is important to 
+know the conditions that produced the data. Here it is assumed that the researchers observe answers under both types of framing. Yet each individual's answer is only
+observed once under one type of framing.
+\includegraphics{table.png} \label{table}
+To the best of my understanding, the table contains a mistake. I believe that the description for the second row of the table should read
+"Choose to enroll, opt-out regime, $ Y_i(1) = 1$" (instead in the version in the article, the description mistakenly contains a "not": "Choose not to enroll, opt-out regime, $ Y_i(1) = 1$")
+Now, it becomes easy to see how the fraction of consistent decision makers can be found even if each decision makers is only observed under one frame.
+In the example in table \ref{table}, 0 \% of observations fall into the top-right quadrant by assumption.
+The top-left quadrant is the result of $1-\bar{Y}(1)$, where $\bar{Y}(1)$
+is the fraction of decision makers who chose to enroll under the opt-out framing. This number is observed by the researchers.
+The bottom left quadrant is the difference between the fraction of decision makers who enroll under opt-out framing and the fraction
+of decision makers who enroll under opt-in framing. Both fractions are observed.
+The bottom right quadrant is the fraction of decision makers who enroll under opt-in framing, which is again, observed.
+Now the fraction of consistent decision makers who prefer option 1 can be calculated according to proposition 1. When assumption A4 is relaxed,
+at least a lower bound can be calculated.
+This way, despite the researcher not observing each decision maker under each framing, the preferences of the consistent decision makers can be recovered.
+
+When a researcher has access to a dataset as proposed in this research proposal, the fraction of consistent decision makers preferring
+option 1 can be calculated directly and could be compared to the result from \textcite{goldin2020}'s method (in table \ref{table} approximately 53\%). Thus, providing
+a way to check the method for its validity in a certain setting.
+
+In the next step, \textcite[p.2769]{goldin2020} describe several methods to carry the preferences of the consistent decision makers
+over to the rest of the population. 
+
+% 1. Identify the subgroup of consistent decision makers
+% 2. Project from that subgroup onto the entire Population
+%     2.1 Partial Identification
+%     2.2 Selection on observables
+%     2.3 Instruments
+
+%     To illustrate
+%     the notation with the privacy example from the introduction, let Yi indicate
+%     whether i allows a company to use her data, Di 5 1 indicate the optout
+%     regime, and Di 5 0 indicate the opt-in regime, so that Y ð1Þ 5 0:65
+%     and Y ð0Þ 5 0:40.   
 
 %A) Data
 %Komplettes Deaktivieren der Cookies in Firefox oder Cookies deaktivieren für nutzungsbasierte Online-Werbung

@@ -2130,17 +2130,17 @@
     <bcf:datasource type="file" datatype="bibtex">literatur.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">acquisti2015privacy</bcf:citekey>
+    <bcf:citekey order="1">gerber2018</bcf:citekey>
     <bcf:citekey order="2">acquisti2015privacy</bcf:citekey>
-    <bcf:citekey order="3">goldin2020</bcf:citekey>
-    <bcf:citekey order="4">levy2020</bcf:citekey>
+    <bcf:citekey order="3">acquisti2015privacy</bcf:citekey>
+    <bcf:citekey order="4">goldin2020</bcf:citekey>
     <bcf:citekey order="5">goldin2020</bcf:citekey>
     <bcf:citekey order="6">goldin2020</bcf:citekey>
-    <bcf:citekey order="7">goldin2020</bcf:citekey>
-    <bcf:citekey order="8">goldin2020</bcf:citekey>
-    <bcf:citekey order="9">goldin2020</bcf:citekey>
+    <bcf:citekey order="7">levy2020</bcf:citekey>
+    <bcf:citekey order="8">levy2020</bcf:citekey>
+    <bcf:citekey order="9">GDPR</bcf:citekey>
     <bcf:citekey order="10">goldin2020</bcf:citekey>
-    <bcf:citekey order="11">acquisti2015privacy</bcf:citekey>
+    <bcf:citekey order="11">goldin2020</bcf:citekey>
     <bcf:citekey order="12">goldin2020</bcf:citekey>
     <bcf:citekey order="13">goldin2020</bcf:citekey>
     <bcf:citekey order="14">goldin2020</bcf:citekey>
@@ -2153,13 +2153,13 @@
     <bcf:citekey order="21">goldin2020</bcf:citekey>
     <bcf:citekey order="22">goldin2020</bcf:citekey>
     <bcf:citekey order="23">goldin2020</bcf:citekey>
-    <bcf:citekey order="24">levy2020</bcf:citekey>
-    <bcf:citekey order="25">levy2020</bcf:citekey>
-    <bcf:citekey order="26">levy2020</bcf:citekey>
+    <bcf:citekey order="24">goldin2020</bcf:citekey>
+    <bcf:citekey order="25">goldin2020</bcf:citekey>
+    <bcf:citekey order="26">goldin2020</bcf:citekey>
     <bcf:citekey order="27">goldin2020</bcf:citekey>
-    <bcf:citekey order="28">goldin2020</bcf:citekey>
-    <bcf:citekey order="29">goldin2020</bcf:citekey>
-    <bcf:citekey order="30">goldin2020</bcf:citekey>
+    <bcf:citekey order="28">levy2020</bcf:citekey>
+    <bcf:citekey order="29">levy2020</bcf:citekey>
+    <bcf:citekey order="30">levy2020</bcf:citekey>
     <bcf:citekey order="31">goldin2020</bcf:citekey>
     <bcf:citekey order="32">goldin2020</bcf:citekey>
     <bcf:citekey order="33">goldin2020</bcf:citekey>
@@ -2167,6 +2167,16 @@
     <bcf:citekey order="35">goldin2020</bcf:citekey>
     <bcf:citekey order="36">goldin2020</bcf:citekey>
     <bcf:citekey order="37">goldin2020</bcf:citekey>
+    <bcf:citekey order="38">goldin2020</bcf:citekey>
+    <bcf:citekey order="39">goldin2020</bcf:citekey>
+    <bcf:citekey order="40">goldin2020</bcf:citekey>
+    <bcf:citekey order="41">goldin2020</bcf:citekey>
+    <bcf:citekey order="42">goldin2020</bcf:citekey>
+    <bcf:citekey order="43">goldin2020</bcf:citekey>
+    <bcf:citekey order="44">goldin2020</bcf:citekey>
+    <bcf:citekey order="45">goldin2020</bcf:citekey>
+    <bcf:citekey order="46">levy2020</bcf:citekey>
+    <bcf:citekey order="47">goldin2020</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

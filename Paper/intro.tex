@@ -1,47 +1,62 @@
 
 
-In stated preference studies people tend to express a high valuation for privacy, yet observed behavior is typically at odds with stated preferences.
-This phenomenon has come to known in the literature as privacy paradox. Some have argued that this observation is 
-merely illusory, since one can state a high valuation of privacy in general, but in a specific situation a cost-benefit analysis might 
-lead people to discount privacy concerns \parencite[p. 2]{acquisti2015privacy}. This refutation falls short insofar, as it is a well documented result in behavioral economic research that people'
-decision making capabilities are only in part rational. Especially in situations when people are uncertain about the consequences of their actions, when they are unsure about their preferences or when they 
+In stated preference studies people tend to express a high valuation for privacy, yet observed behavior is typically at odds with these stated preferences.
+This phenomenon has come to be known in the literature as privacy paradox \parencite{gerber2018}. Some have argued that this observation is 
+merely illusory since an individual can state a high valuation of privacy in general, but in a specific situation, a cost-benefit analysis might 
+lead people to discount privacy concerns \parencite[p. 2]{acquisti2015privacy}. This refutation falls short insofar, as it is a well documented result in behavioral
+economic research that people's
+decision making capabilities are only in part rational. Especially in situations when people are uncertain about the consequences of their actions, when they are unsure about their preferences, or when they 
 are under time pressure, people often search for clues in their surrounding to provide guidance \parencite[p. 3]{acquisti2015privacy}. One possible source of 
-orientation can stem from the specific way in which a decision is framed. Deriving revealed preferences in the presence of framing can be problematic, if people's preference 
-is not consistent over the set of framings. \textcite{goldin2020} propose a new method to recover consistent population preferences even when framing effects are present. 
+orientation can stem from the specific way in which a decision is framed. Framing effects, in turn, introduce a difficulty when researchers are interested in learning about people's true preferences.
+Deriving revealed preferences in the presence of framing can be problematic if people's preference 
+is not consistent over the set of framings. \textcite{goldin2020} propose a new method to identify the fraction of consistent decision makers
+and to extrapolate from them to the entire population. A decision maker is consistent when her decision is not influenced by the frame. Preferences can then then be recovered even when framing effects are present, as if the whole population was comprised of framing-consistent decision makers.
 
-Their methodology rests on the insight that even though framing-consistent preferences cannot be observed on the \textit{individual level} in typical datasets, 
-on the \textit{population level} the fraction of consistent decision-makers can be identified. From the subgroup of consistent decision-makers their approach
+Their methodology rests on the insight that even though framing-consistent preferences cannot be observed on the \textit{individual level} in typical datasets (i.e in datasets where researchers
+observe a respondent's answer generated under only one framing), 
+on the \textit{population level}, the fraction of consistent decision-makers can be identified if researchers see answers from all framings. From the subgroup of consistent decision makers their approach
 extrapolates to the entire population. Their method is described in detail in section \ref{model}.
 % Describe in more detial ithe method and what data is neeeded and that the problem is
+\\
+\\
+This research proposal suggests to build on the results obtained by \textcite{goldin2020}. It suggests to collect a dataset that can be used to test their method. At the
+same time, the results from the analysis of this dataset will produce framing-consistent estimates of users' privacy setting preferences. The test of \textcite{goldin2020}'s method
+will constitute a methodological contribution to the literature on revealed preferences under framing. %literature on preferences is mentioned in two consecutive statements, is that okay?
+The preference estimates will contribute to the literature on
+privacy preferences and will have implications for policy makers concerned with the question of security of personal data on the internet.
+\\
+\\
+In particular, it is proposed to collect a dataset online recording people's decisions about browser cookie settings via a type of data collection
+akin to the one in \textcite{levy2020}. \textcite{levy2020} wrote a browser add-on for Google's Chrome browser, which tracked in an experiment
+the participants' visited websites for two weeks. It is proposed to write a similar browser add-on to track people's decision about browser cookie settings.
+According to the General Data Protection Regulation (GDPR) users who visit a website from within the European Union or the European Economic Area must be asked for their
+stated consent on storing browser cookies \parencite{GDPR}. For the intents of this research proposal, one can divide browser cookies into two groups.
+First, there are essential cookies that are necessary to guarantee the website's functionality. Second, there are third-party ad-tracking cookies. 
+A website's host still has a monetary incentive to nudge users to allow for the ad-tracking cookies. This can be done by choosing the default cookie settings.
 
-This research draft proposes two innovations. First, it is proposed to collect an online dataset recording people's decisions about browser cookie settings via a type of data collection
-akin to the one in \textcite{levy2020}. \textcite{goldin2020}'s method can subsequently be applied to the analysis of this dataset. The second innovation is methodological in nature.
 The dataset collected online will contain repeated observations of the same individual both under an ad-tracking cookie opt-in framing and an ad-tracking cookie opt-out framing.
-This additional information can be used to overcomes the central limitation in most datasets. This means that the necessity for \textcite{goldin2020}'s model vanishes.
-Instead, the subset of framing-consistent people can be observed on the individual level. Once these individuals are identified, one can again extrapolate to the entire population, as
+This additional information can be used to overcome a central limitation in many datasets (where individuals are observed only under one frame).
+The subset of framing-consistent people can therefore be observed on the individual level. Once these individuals are identified, one can again extrapolate to the entire population, as
 is done in \textcite{goldin2020}'s method. Finally, the results from the first approach and the second approach can be compared, yielding an empirical test of 
 \textcite{goldin2020}'s method.
 
-% To understand the 
-% data
-% GDPR introduced mandatory choice
-
-What would ideal results of this research look like? If the proposed research succeeds it find whether \textcite{goldin2020}'s new method generates estimates that are 
+What would ideal results of this research look like? If the proposed research succeeds, it finds whether \textcite{goldin2020}'s new method generates estimates that are 
 qualitatively similar and quantitatively close to estimates based on repeated observations of the same individual.
-By doing so, it will produce estimates of people's privacy preferences which are robust with respect to framing. Here two scenarios are conceivable: Either it will
-be found that   From a policy point of view, the latter result could possibly be interpreted to imply that the rules governing cookie default settings would have to be
-further tightened, such that websites default setting is to only use technically necessary cookies. Ad-tracking cookies would then mandatorily be opt-in.
+By doing so, it will produce estimates of people's privacy preferences which are robust with respect to framing. Here two scenarios are conceivable: It will
+be found that a large proportion or even a majority of users do have a preference for heightened privacy, i.e. a preference against non essential ad-tracking cookies.
+Alternatively, it could be found that users do have a preference for ad-tracking cookies, e.g. because allowing for this type of cookie increases the relevance of online advertisement.
+From a policy point of view, the former result could possibly be interpreted to imply that the rules governing cookie default settings would have to be
+further tightened, such that websites default setting is to only use technically necessary cookies by default. Ad-tracking cookies would then mandatorily be opt-in. Either way,
+the analysis will allow to examine if there are interesting sources of heterogeneity in the data, potentially revealing previously unknown relationships between
+users and their privacy attitudes.
+\\
+\\
+The remainder of this research proposal is structured as follows. Section \ref{basic notation} will introduce the basic idea and notation of \textcite{goldin2020}'s method. Section
+\ref{ass} will introduce the assumptions that form the basis for their identification strategy. Section \ref{data coll} will describe how and what kind of data is proposed to be collected.
+Section \ref{method} will describe the identification strategy of \textcite{goldin2020}'s method. Section \ref{sum} concludes.
 
-% HTTP cookie
 
-% Policy implications
 
-This research lies in the intersection of three strands of literature, each of which it will attempt to contribute to. First, it will contribute to the 
-literature on measuring preferences for and attitudes towards privacy. Both in the social and behavioral sciences There is a large body of literature that examines the 
-nature of privacy preferences. This research will contribute by uncovering preferences for online privacy settings in particular. Second, by carrying \textcite{goldin2020}'s
-model into a new setting and confronting it with an empirical test, this research will contribute to the literature on revealed preferences under framing.
-And finally, there is a growing literature on the effects of the GDPR. The change in laws regarding cookie settings is what enables this research in the first place.
-The results of this study will have practical implications for the question whether even stricter privacy regulations seem justified.
 
 
 

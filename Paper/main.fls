@@ -168,11 +168,18 @@ INPUT c:\Users\JWL\Documents\Summer School Courses 2020\Revealed Preferences\Rev
 INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmcsc10.tfm
 INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmcsc10.tfm
 INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmti12.tfm
-INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
-INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\JWL\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr17.tfm
+INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
+INPUT c:\Users\JWL\Documents\Summer School Courses 2020\Revealed Preferences\Revealed_Preference_Research_Proposal\Paper\intro.tex
+INPUT c:\Users\JWL\Documents\Summer School Courses 2020\Revealed Preferences\Revealed_Preference_Research_Proposal\Paper\intro.tex
+INPUT c:\Users\JWL\Documents\Summer School Courses 2020\Revealed Preferences\Revealed_Preference_Research_Proposal\Paper\model.tex
+INPUT c:\Users\JWL\Documents\Summer School Courses 2020\Revealed Preferences\Revealed_Preference_Research_Proposal\Paper\model.tex
+INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr6.tfm
-INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi12.tfm
 INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi8.tfm
 INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi6.tfm
 INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
@@ -191,20 +198,6 @@ INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
 INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
-INPUT C:\Users\JWL\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
-INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr17.tfm
-INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
-INPUT c:\Users\JWL\Documents\Summer School Courses 2020\Revealed Preferences\Revealed_Preference_Research_Proposal\Paper\intro.tex
-INPUT c:\Users\JWL\Documents\Summer School Courses 2020\Revealed Preferences\Revealed_Preference_Research_Proposal\Paper\intro.tex
-INPUT c:\Users\JWL\Documents\Summer School Courses 2020\Revealed Preferences\Revealed_Preference_Research_Proposal\Paper\model.tex
-INPUT c:\Users\JWL\Documents\Summer School Courses 2020\Revealed Preferences\Revealed_Preference_Research_Proposal\Paper\model.tex
-INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx8.tfm
 INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx6.tfm
@@ -223,8 +216,6 @@ INPUT c:\Users\JWL\Documents\Summer School Courses 2020\Revealed Preferences\Rev
 INPUT c:\Users\JWL\Documents\Summer School Courses 2020\Revealed Preferences\Revealed_Preference_Research_Proposal\Paper\main.out
 INPUT c:\Users\JWL\Documents\Summer School Courses 2020\Revealed Preferences\Revealed_Preference_Research_Proposal\Paper\main.run.xml
 OUTPUT c:\Users\JWL\Documents\Summer School Courses 2020\Revealed Preferences\Revealed_Preference_Research_Proposal\Paper\main.run.xml
-INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
-INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
@@ -233,12 +224,8 @@ INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts
 INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi8.pfb
-INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr8.pfb
-INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\JWL\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy8.pfb

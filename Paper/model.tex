@@ -1,10 +1,10 @@
-The description of this model follows chapter one of \textcite{acquisti2015privacy}. A fully detailed description 
+The description of this model follows chapter 1 of \textcite{goldin2020}. A fully detailed description 
 of the model can be found there and is beyond the scope of this research proposal. Here, only the main concepts 
 necessary for understanding this proposal are presented.
 
-\subsection{Basic model notation}
+\subsection{Basic model notation}\label{basic notation}
 
-A decision maker i chooses from a binary decision set $ \textbf{S} = \lbrace 0,1 \rbrace  $ und two possible frames $ D_{i} \in \lbrace 0,1 \rbrace $. 
+A decision maker i chooses from a binary decision set $ \textbf{S} = \lbrace 0,1 \rbrace  $ and two possible frames $ D_{i} \in \lbrace 0,1 \rbrace $. 
 In the context of this research proposal, the decision coded with a $0$ 
 could refer to an individual's decision to accept only technically necessary cookies and 
 the decision coded with a $ 1 $ could refer to an individual's decision 
@@ -45,7 +45,7 @@ Having these two sets of results, one can compare the estimates from both to arr
 %HERE IT is necessary to say which observations to use if there is a conflict!
 % Random subsample vs. drop the inconsistent ones
 
-\subsection{Model assumptions}
+\subsection{Model assumptions}\label{ass}
 
 One of \textcite{goldin2020}'s main contributions is to make the necessary assumptions for their analysis explicit.
 Furthermore, the assumptions are fundamental to their approach and will be required in section \ref{data and methods} to
@@ -60,7 +60,8 @@ followed by a comment on how each assumption relates to the approach suggested i
 
 For each individual, the most preferred option does not depend on the framing.
 This is an assumption about the content of a decision makers' preferences and is 
-useful to define which features of the environment are considered to be part of the framing \parencite[p. 2764]{goldin2020}.
+useful to define which features of the environment are considered to be part of the framing \parencite[p. 2764]{goldin2020}. This assumption can
+remain unchanged under the approach of this research proposal. 
 
 \begin{itemize}
     \item Assumption A2) \textit{Frame exogeneity}: $ (Y_i(0), Y_i(1), Y^*_i) \indep D_i$.
@@ -70,14 +71,14 @@ This assumption refers to the data generating process by which decision makers a
 It is similar in nature to the assumption in the potential outcome setting that says treatment and
 assignment to treatment need to be independent. A2) makes sure that observed differences
 are due to the effect of the frames, rather than due to differences in the groups of individuals assigned
-to each frame.
+to each frame. This assumption can remain unchanged as well.
 
 \begin{itemize}
     \item Assumption RPA) \textit{Revealed-preference assumption}: For all $ i, Y^*_i = Y_i $.
 \end{itemize}
 
 In \textcite{goldin2020}'s setting, a framing effect is observed when assumptions A1) and A2)
-are satisfied and one observes $\bar{Y}(1) \neq \bar{Y}_i $. In the context
+are satisfied and one observes $\bar{Y}(1) \neq \bar{Y}(0) $. In the context
 of this research proposal, a framing effect occurs if $ Y_{i, k}(0) \neq Y_{i, \lnot k}(1)$ for
 at least one $k$.
 

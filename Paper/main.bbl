@@ -63,6 +63,60 @@
       \field{pages}{509\bibrangedash 514}
       \range{pages}{6}
     \endentry
+    \entry{GDPR}{misc}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://gdpr.eu/tag/gdpr/}}
+      \field{note}{Online, Accessed: 13-July-2020}
+      \field{title}{General Data Protection Regulation}
+      \field{year}{2020}
+    \endentry
+    \entry{gerber2018}{article}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=58fa2c9ee9b84cb52d163b7fcebaa121}{%
+           family={Gerber},
+           familyi={G\bibinitperiod},
+           given={Nina},
+           giveni={N\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=81646d491192cdc2ac01a72724b3e63f}{%
+           family={Gerber},
+           familyi={G\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=808422f447ee9d896624775dfdf52e4f}{%
+           family={Volkamer},
+           familyi={V\bibinitperiod},
+           given={Melanie},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{71923c901f5fedf41af8f6f31cba8797}
+      \strng{fullhash}{71923c901f5fedf41af8f6f31cba8797}
+      \strng{bibnamehash}{71923c901f5fedf41af8f6f31cba8797}
+      \strng{authorbibnamehash}{71923c901f5fedf41af8f6f31cba8797}
+      \strng{authornamehash}{71923c901f5fedf41af8f6f31cba8797}
+      \strng{authorfullhash}{71923c901f5fedf41af8f6f31cba8797}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers \& Security}
+      \field{title}{Explaining the privacy paradox: A systematic review of literature investigating privacy attitude and behavior}
+      \field{volume}{77}
+      \field{year}{2018}
+      \field{pages}{226\bibrangedash 261}
+      \range{pages}{36}
+    \endentry
     \entry{goldin2020}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=78894e2f837d992af36804bfb1b092df}{%
@@ -123,7 +177,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.roeelevy.com/research}}
-      \field{note}{[Online; accessed 09-July-2020]}
+      \field{note}{[Currently revise and resubmit American Economic Review; Online; accessed 09-July-2020]}
       \field{title}{Social Media, News Consumption, and Polarization: Evidence from a Field Experiment}
       \field{year}{2020}
     \endentry

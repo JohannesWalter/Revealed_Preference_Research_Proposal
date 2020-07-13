@@ -2,7 +2,7 @@ Subsection \ref{data coll} describes how the data is proposed to be collected an
 It will also contain a short overview of
 browser cookies and their functionality. Section \ref{method} will present how
 \textcite{goldin2020} identify their parameters of interest and the simplifications
-that are possible when one has access to a richer dataset.
+that are possible when one has access to a richer dataset, as proposed here.
 
 \subsection{Data} \label{data coll}
 The process of data collection is inspired by \textcite{levy2020}. In this paper, the
@@ -12,17 +12,18 @@ small reward in exchange of installing the browser extension on their device \pa
 2262 survey participants installed the extension, and 1835 kept the extension installed for at least two weeks.
 
 This research proposal suggests to apply the same design. Participants can be attracted
-via a Facebook or Google ad campaign. In a short survey, their age, gender and nationality can
-be elicited. Afterwards, they are asked to install a small browser extension in exchange for
-a small reward. The extension will use a short javascript code that writes a log file. This log file will keeps track whether a participant has 
+via a Facebook or Google ad campaign. In a short survey, their age, gender and nationality could
+be elicited (for analysis of heterogeneity and the selection on observables identification approach as described in section \ref{method}). Afterwards, they are asked to install a small browser extension in exchange for
+a reward. The extension will use a short javascript code that writes a log file. This log file will keep track of whether a participant has 
 visited a website that asks for cookie settings. It will also log whether
 the default setting is to accept all cookies, or whether by default only the technically necessary cookies are selected.
 Importantly, the extension needs not collect any information about the content of the visited websites. From a privacy point of view,
-this design is less invasive than the one in \textcite{levy2020}. This observation motivates the believe that there is a sufficient amount of people who are willing
+this design is less invasive than the one in \textcite{levy2020}. This observation motivates the assumption that there is a sufficient amount of people who are willing
 to participate in such a study.
 %Chrome makes it easy to include extensions
 % Talk about the money required
-
+\\
+\\
 A hypertext transfer protocol (HTTP) cookie is a small piece of data that is sent from
 a website and stored on a users device. For the purposes of this research proposal, cookies can be classified into two groups. First, there are
 technically necessary cookies that ensure a website is working as intended. Such cookies could remember preceding user
@@ -30,7 +31,7 @@ interactions with the site, e.g. adding an item to a shopping cart, or logging i
 necessary to ensure the website's functionality. A common example are for example third-party tracking cookies which record previously visited websites.
 These non-essential third-party tracking cookies can generate long-term records of a user's browsing history and can therefore manifest a potential privacy concern.
 Websites have an incentive to allow these cookies, as they receive third-party payments in return (common tracking cookies are e.g. Google AdSense or Facebook remarketing).  
-The GDPR requires that all websites which target European Union member states ask their users for consent
+The GDPR requires that all websites which target European Union or European Economic Area member states ask their users for consent
 before they are allowed to store non-essential cookies on a user's device. The host of a website still
 has a choice on how to frame this question. Either non-essential cookies are unselected by default and if the
 user clicks once on "accept" no tracking is possible. Or non-essential cookies are selected by default and if the user wants
@@ -40,19 +41,18 @@ to avoid them it is necessary to go into the website's privacy settings and unse
 \subsection{Method} \label{method}
 
 This section will describe how \textcite{goldin2020} identify their model parameters. It will also contain a description
-of how the parameter identification is simplified by the method proposed here.
-To keep this section concise and within the scope of this proposal, only the main ideas are introduced here.
-For a detailed discussion, see \textcite[p.2767]{goldin2020}.
+of how the parameter identification is simplified by the dataset suggested in this research proposal.
 
 In the first step, \textcite{goldin2020} focus on the consistent decision makers, i.e. the subgroup of individuals
-whose decision does not depend on the frame. With a dataset as suggested above, it is trivial to find this group.
+whose decision does not depend on the frame. With a dataset as suggested in this proposal, it is trivial to find this group. All decision makers who are not influenced by the framing belong to the consistent decision makers
+(it is, of course, possible that there zero decision makers in the dataset, which would be an interesting result in itself). 
 Once the consistent decision makers are found, using assumption A3), the consistency principle, the options they preferred can be found.
 
 \textcite{goldin2020}'s method is also applicable to datasets that do not contain repeated observations for each individual.
-It is worth noting, that \textcite{goldin2020} mention that there method can also improve datasets that do contain repeated observations.
+It is worth noting, that \textcite{goldin2020} mention that their method can also improve datasets that do contain repeated observations.
 In particular, this is the case when the \textit{order} in which the repeated observations are generated can itself be considered a framing. 
 For instance, this could be an issue if researchers were to analyse survey data, where the questions were not sufficiently randomized. 
-For the dataset that is described in section \ref{data coll} the order in which individuals see each question about cookies is, as described, assumed to follow a random process.
+For the dataset that is described in section \ref{data coll} the order in which individuals see each question about cookies is assumed to follow a random process.
 
 \textcite{goldin2020} continue by describing the conditions for which consistent decision makers preferences can be identified when each decision maker
 is observed under a single frame. 
@@ -73,25 +73,42 @@ The logic of proposition 1 is illustrated in table \ref{table}, which is taken f
 know the conditions that produced the data. Here it is assumed that the researchers observe answers under both types of framing. Yet each individual's answer is only
 observed once under one type of framing.
 \includegraphics{table.png} \label{table}
+\\
+\\
 To the best of my understanding, the table contains a mistake. I believe that the description for the second row of the table should read
-"Choose to enroll, opt-out regime, $ Y_i(1) = 1$" (instead in the version in the article, the description mistakenly contains a "not": "Choose not to enroll, opt-out regime, $ Y_i(1) = 1$")
-Now, it becomes easy to see how the fraction of consistent decision makers can be found even if each decision makers is only observed under one frame.
+"Choose to enroll, opt-out regime, $ Y_i(1) = 1$" (instead in the version in the article, the description mistakenly contains a "not": "Choose \textbf{not} to enroll, opt-out regime, $ Y_i(1) = 1$").
+
+It becomes easy to see how the fraction of consistent decision makers can be found even if each decision makers is only observed under one frame.
 In the example in table \ref{table}, 0 \% of observations fall into the top-right quadrant by assumption.
 The top-left quadrant is the result of $1-\bar{Y}(1)$, where $\bar{Y}(1)$
 is the fraction of decision makers who chose to enroll under the opt-out framing. This number is observed by the researchers.
 The bottom left quadrant is the difference between the fraction of decision makers who enroll under opt-out framing and the fraction
 of decision makers who enroll under opt-in framing. Both fractions are observed.
-The bottom right quadrant is the fraction of decision makers who enroll under opt-in framing, which is again, observed.
+The bottom right quadrant is the fraction of decision makers who enroll under opt-in framing, which is, again, observed.
 Now the fraction of consistent decision makers who prefer option 1 can be calculated according to proposition 1. When assumption A4 is relaxed,
 at least a lower bound can be calculated.
 This way, despite the researcher not observing each decision maker under each framing, the preferences of the consistent decision makers can be recovered.
 
 When a researcher has access to a dataset as proposed in this research proposal, the fraction of consistent decision makers preferring
 option 1 can be calculated directly and could be compared to the result from \textcite{goldin2020}'s method (in table \ref{table} approximately 53\%). Thus, providing
-a way to check the method for its validity in a certain setting.
+a way to check the method for its validity and precision in a certain setting.
+ % Why is this not sufficient?! Find place in paper
+\\
+\\
+For completeness, the following paragraph will shortly describe the three methods \textcite[p.2769]{goldin2020} suggest to extrapolate the preferences from the consistent decision makers
+to the rest of the population.  As this part is not the focus of this research proposal only the main ideas are introduced here. For a detailed discussion, see \textcite[p.2767]{goldin2020}.
 
-In the next step, \textcite[p.2769]{goldin2020} describe several methods to carry the preferences of the consistent decision makers
-over to the rest of the population. 
+\textcite{goldin2020} suggest three different ways to proceed.
+The first approach they present explores what can be said abut they entire population without assuming additional  behavioral assumptions.
+Without further assumptions, population preferences can only be obtained as one-directional bounds \parencite[p. 2772]{goldin2020}. 
+The second approach is known from the sample-selection literature: adjusting for observables as individuals "select" into the group of consistent decision makers.
+In order for this approach to result in unbiased estimates, it is necessary to assume that all the relevant variables that link the
+correlation between preferences and consistency are observed by the researcher. And finally, \textcite{goldin2020} introduce an instrumental variable based approach, 
+which they call \textit{decision-quality instrument}. Such an instrumental variable is a part of the decision architecture affecting   
+only the decision makers' consistency and has no relationship with the decision maker's preferences.
+
+
+
 
 % 1. Identify the subgroup of consistent decision makers
 % 2. Project from that subgroup onto the entire Population
